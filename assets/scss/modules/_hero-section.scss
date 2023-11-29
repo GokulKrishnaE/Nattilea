@@ -1,0 +1,22 @@
+.hero-section{
+    background-color: $primary;
+    overflow: hidden;
+    .hero-section-content{
+        padding: 100px 0;
+        color: $white;
+        position: relative;
+        z-index: 2;
+        h1{
+            font-size: 3.8rem;
+            font-weight: 300;
+        }
+        p{
+            font-size: 1.2rem;
+        }
+    }
+    .hero-graphics img{
+        mix-blend-mode: multiply;
+        transform: scale(2);
+        opacity: 0.5;
+    }
+}

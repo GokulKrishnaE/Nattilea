@@ -1,0 +1,27 @@
+.products{
+    a{
+        text-decoration: none;
+        color: $black;
+    }
+    .product-card{
+        background-color: $card-bg;
+        margin-top: 50px;
+    }
+    .product-details{
+        padding: 25px;
+    }
+    .product-title,.product-price{
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    .product-desc{
+        font-size: 1rem;
+        color: rgb(53, 53, 53);
+    }
+    .product-price{
+        color: $primary;
+    }
+    .actions{
+        margin-top: 20px;
+    }
+}

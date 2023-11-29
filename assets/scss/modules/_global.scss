@@ -1,0 +1,27 @@
+// font family
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;700&display=swap');
+
+// box icons
+
+@import url('https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css');
+
+:root{
+    --bs-body-font-family: 'Mulish', sans-serif;
+}
+html{
+    @include media-breakpoint-down(sm){
+        font-size: 90%;
+    }
+}
+
+// font sizes
+
+.f18{
+    font-size: 1.125rem;
+}
+
+// background colors
+
+.bg-grey{
+    background-color: #f2f6fa
+}

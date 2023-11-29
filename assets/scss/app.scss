@@ -1,0 +1,16 @@
+// bootstrap v5.2.3
+@import './bootstrap/_bootstrap';
+
+// plugins
+@import './plugins/bootstap-icons';
+
+// custom modules
+@import './modules/variables';
+@import './modules/buttons';
+@import './modules/header';
+@import './modules/footer';
+@import './modules/hero-section';
+@import './modules/section';
+@import './modules/cards';
+@import './modules/products';
+@import './modules/global';

@@ -1,0 +1,11 @@
+.btn{
+    padding: 8px 25px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.btn-primary{
+    background-color: $secondary !important;
+    border-color: $secondary !important;
+    color: #000 !important;
+}
