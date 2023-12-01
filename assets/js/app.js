@@ -7,6 +7,13 @@ $(document).ready(function(){
     $(this).load(html)
   })
 
+  $('.product-thumbnail').slick({
+    dots: true,
+    prevArrow: false,
+    nextArrow: false,
+    infinite: true,
+  });
+
 })
 
 $(document).ajaxStop(function(){

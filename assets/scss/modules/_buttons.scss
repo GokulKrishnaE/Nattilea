@@ -3,9 +3,27 @@
     border-radius: 25px;
     text-transform: uppercase;
     letter-spacing: 2px;
+    transition: all 0.2s ease-out;
+    i{
+        font-size: 1.3rem;
+        margin-left: 10px;
+    }
 }
 .btn-primary{
     background-color: $secondary !important;
     border-color: $secondary !important;
     color: #000 !important;
+    &:hover{
+        background-color: $secondary-hover !important;
+        border-color: $secondary-hover !important;
+    }
+}
+.btn-outline-primary{
+    background-color: transparent !important;
+    border-color: $secondary !important;
+    color: #000 !important;
+    &:hover{
+        background-color: $secondary !important;
+        border-color: $secondary !important;
+    }
 }
